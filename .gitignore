@@ -4,10 +4,8 @@
 .idea/projection.iml
 .idea/vcs.xml
 .idea/inspectionProfiles/profiles_settings.xml
-<<<<<<< HEAD
 venv
 db.sqlite3
 .vscode
 projection/settings.py
-=======
->>>>>>> parent of ecd9efb... Gitignore
+
