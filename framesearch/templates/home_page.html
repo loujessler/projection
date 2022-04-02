@@ -1,0 +1,16 @@
+<html>
+    <title>Проекция</title>
+    <h1>Проекция</h1>
+    <div class='body'>
+        {% for frame in frames %}
+            <p>{{ frame }}</p>
+            <div class='frame'>
+                <h2 class='frame-title'>{{ frame.title }}</h2>
+                <p class='frame-summary'>{{ frame.summary }}</p>
+            </div>
+        {% endfor %}
+        {% comment %} <div class='frame'>
+            <h2 class='try'>text</h2>
+        </div> {% endcomment %}
+    </div>    
+</html>
